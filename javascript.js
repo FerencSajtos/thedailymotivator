@@ -20,10 +20,11 @@
     ['Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.','Martin Golding'],
     ['One man\'s crappy software is another man\'s full-time job.','Jessica Gaston']]; */
     const arr = [
-        ['Fuck you.']
-/*        ['Just give up already.'],
+        ['Fuck you.'],
+        ['Just give up already.'],
         ['It\'s never going to happen.'],
-    ['There is no point in trying.']*/];
+    ['There is no point in trying.'],
+    ['Why even bother?']];
 function newQuote(){
    let index = Math.floor((Math.random() * arr.length));
    document.getElementById('quote').innerHTML = arr[index];

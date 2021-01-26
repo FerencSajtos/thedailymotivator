@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <title>The Daily Motivator</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+          <h1>The Daily <span>Motivator</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class ="background">
+      <div></div>
+        <div id="quoteDisplay" class="quoteDisplay">
+          <p id="quote" class="quote"></p>
+          <p id="author"></p>
+        </div> 
+      </div>
+    </div>
+    <div class="footer">
+      <audio id="bgmusic" autoplay loop>
+        <source src="slowjazz.mp3" type="audio/ogg">
+        </audio>
+        <script>
+          var audio = document.getElementById("bgmusic");
+          audio.volume = 0.2;
+          </script>
+      <button class="button" onclick="newQuote()">Motivate Me!</button>
+  </div>
+  </body>
+</html>

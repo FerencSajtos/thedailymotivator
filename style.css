@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    width:100%;
+    height:80px;
+    display: block;
+    background-image: linear-gradient(180deg, #101010,rgba(255,0,0,0));
+}
+.inner_header{
+    width:1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: radial-gradient(center, white,#101010);
+}
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color:white;
+    height: 100%;
+    display:table-cell;
+    vertical-align: middle;
+    font-family: 'Galada';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 600;
+}
+.background{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+.quoteDisplay{
+    color: rgba(255,255,255,0.90);
+    font-family: 'Galada';
+    font-weight: 50;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 33vh;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.button{
+    background-color: rgba(255, 0, 0, 0);
+    width: 33%;
+    color: rgba(255,255,255,0.75);
+    font-size: 45px;
+    font-kerning: auto;
+    font-family: 'Galada';
+    border: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0),#101010);
+}
+.footer {
+    width:100%;
+    height:80px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0),#101010);
+    justify-content: center;
+}
+body{
+    background-image: 
+    url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}

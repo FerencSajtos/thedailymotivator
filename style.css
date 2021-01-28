@@ -3,6 +3,7 @@
     margin:0px;
     text-decoration: none;
     list-style: none;
+    overflow:hidden;
 }
 .header {
     width:100%;
@@ -43,7 +44,7 @@
     color: rgba(255,255,255,0.90);
     font-family: 'Galada';
     font-weight: 50;
-    font-size: 30px;
+    font-size: 45px;
     font-style: italic;
     display: flex;
     flex-direction: column;
@@ -98,4 +99,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
